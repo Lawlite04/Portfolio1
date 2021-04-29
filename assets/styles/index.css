@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    border: brown 2px dotted;
+    padding: 5px;
+}
+
+section{
+    margin: 50px 0px;
+}
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}

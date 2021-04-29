@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.form-bmi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-input-bmi input{
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.button-style input{
+    background-color: seagreen;
+    border: none;
+    color: white;
+}

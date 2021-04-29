@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.form-text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-text input{
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+.submit{
+    background-color: seagreen;
+    color: seashell;
+    border: none;
+}

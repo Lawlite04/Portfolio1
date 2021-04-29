@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.portofolio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.gambar{
+    width: 250px;
+}
+.gambar img{
+    width: 100%;
+    object-fit: cover;
+}
+.portofolio a{
+    text-decoration: none;
+    color: black;
+}
+.portofolio a:hover{
+    color: blue;
+}
+.gambar img:hover{
+    width: 260px;
+}
